@@ -11,6 +11,8 @@ body{
 
         }
         .container{
+            margin:20px 10px 20px 10px;
+            background-color: #393E46;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -49,17 +51,16 @@ body{
     .foot{
         display: block;
         text-align: center;
-        margin-top: 10%;
          color: #00ADB5;
     }
- @media (max-width:680px){
+    @media (max-width:680px){
         h1{
-            font-size: 35px;
+            font-size: 2rem;
             text-align: center;
         }
         
         .container{
-            width: 100%;
+            width: 95%;
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -74,6 +75,7 @@ body{
         }
         .text{
            margin: 20px 10px 0 10px;
+           
         }
         .foot{
             display: flex;
