@@ -23,10 +23,10 @@ body{
             margin: 10px 20px 10px 0px;
         }
         .text{
-            margin-left: 0px;
-            margin-top: 120px;
+            margin-left: 20px;
+            margin-top: 140px;
             font-family: "Caprasimo", serif;
-             font-weight: 400;
+             font-weight: 200;
              font-style: normal;
             align-self: flex-start;
             display: flex;
@@ -35,8 +35,7 @@ body{
             font-size: 1.3rem;
         }
         .sub-text{
-            object-fit: contain;
-            width: 40%;
+            width: 60%;
         }
         .one{align-self:flex-start;}
         .two{align-self: center;}
@@ -80,5 +79,5 @@ body{
         .foot{
             display: flex;
            justify-content: center;
-        }
-    }
+}
+}
